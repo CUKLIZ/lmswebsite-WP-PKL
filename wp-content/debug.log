@@ -1,0 +1,64 @@
+[23-Dec-2025 00:18:28 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Payment_Gateway" not found in /srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/WCDummyGateway.class.php:3
+Stack trace:
+#0 /srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/wc-dummy-gateway.php(14): require_once()
+#1 /srv/http/wordpress/lmswebsite/wp-includes/class-wp-hook.php(341): {closure:/srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/wc-dummy-gateway.php:13}()
+#2 /srv/http/wordpress/lmswebsite/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#3 /srv/http/wordpress/lmswebsite/wp-includes/plugin.php(522): WP_Hook->do_action()
+#4 /srv/http/wordpress/lmswebsite/wp-settings.php(593): do_action()
+#5 /srv/http/wordpress/lmswebsite/wp-config.php(105): require_once('...')
+#6 /srv/http/wordpress/lmswebsite/wp-load.php(50): require_once('...')
+#7 /srv/http/wordpress/lmswebsite/wp-blog-header.php(13): require_once('...')
+#8 /srv/http/wordpress/lmswebsite/index.php(17): require('...')
+#9 {main}
+  thrown in /srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/WCDummyGateway.class.php on line 3
+[23-Dec-2025 00:19:43 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Payment_Gateway" not found in /srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/WCDummyGateway.class.php:3
+Stack trace:
+#0 /srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/wc-dummy-gateway.php(14): require_once()
+#1 /srv/http/wordpress/lmswebsite/wp-includes/class-wp-hook.php(341): {closure:/srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/wc-dummy-gateway.php:13}()
+#2 /srv/http/wordpress/lmswebsite/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#3 /srv/http/wordpress/lmswebsite/wp-includes/plugin.php(522): WP_Hook->do_action()
+#4 /srv/http/wordpress/lmswebsite/wp-settings.php(593): do_action()
+#5 /srv/http/wordpress/lmswebsite/wp-config.php(105): require_once('...')
+#6 /srv/http/wordpress/lmswebsite/wp-load.php(50): require_once('...')
+#7 /srv/http/wordpress/lmswebsite/wp-admin/admin.php(35): require_once('...')
+#8 /srv/http/wordpress/lmswebsite/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown in /srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/WCDummyGateway.class.php on line 3
+[23-Dec-2025 00:19:44 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Payment_Gateway" not found in /srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/WCDummyGateway.class.php:3
+Stack trace:
+#0 /srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/wc-dummy-gateway.php(14): require_once()
+#1 /srv/http/wordpress/lmswebsite/wp-includes/class-wp-hook.php(341): {closure:/srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/wc-dummy-gateway.php:13}()
+#2 /srv/http/wordpress/lmswebsite/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#3 /srv/http/wordpress/lmswebsite/wp-includes/plugin.php(522): WP_Hook->do_action()
+#4 /srv/http/wordpress/lmswebsite/wp-settings.php(593): do_action()
+#5 /srv/http/wordpress/lmswebsite/wp-config.php(105): require_once('...')
+#6 /srv/http/wordpress/lmswebsite/wp-load.php(50): require_once('...')
+#7 /srv/http/wordpress/lmswebsite/wp-admin/admin.php(35): require_once('...')
+#8 /srv/http/wordpress/lmswebsite/wp-admin/index.php(10): require_once('...')
+#9 {main}
+  thrown in /srv/http/wordpress/lmswebsite/wp-content/plugins/dummy-gateway-for-woocommerce/WCDummyGateway.class.php on line 3
+[23-Dec-2025 00:22:44 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Dec-2025 00:22:48 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>shop_order_placehold</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /srv/http/wordpress/lmswebsite/wp-includes/functions.php on line 6131
+[23-Dec-2025 00:22:48 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>shop_order_placehold</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /srv/http/wordpress/lmswebsite/wp-includes/functions.php on line 6131
+[23-Dec-2025 00:22:48 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>shop_order_placehold</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /srv/http/wordpress/lmswebsite/wp-includes/functions.php on line 6131
+[23-Dec-2025 00:22:48 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>shop_order_placehold</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /srv/http/wordpress/lmswebsite/wp-includes/functions.php on line 6131
+[23-Dec-2025 00:22:48 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>shop_order_placehold</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /srv/http/wordpress/lmswebsite/wp-includes/functions.php on line 6131
+[23-Dec-2025 00:22:48 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>shop_order_placehold</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /srv/http/wordpress/lmswebsite/wp-includes/functions.php on line 6131
+[23-Dec-2025 00:22:48 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>shop_order_placehold</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /srv/http/wordpress/lmswebsite/wp-includes/functions.php on line 6131
+[23-Dec-2025 00:22:48 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>shop_order_placehold</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /srv/http/wordpress/lmswebsite/wp-includes/functions.php on line 6131
+[23-Dec-2025 00:25:24 UTC] PHP Deprecated:  Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9970
+[23-Dec-2025 00:25:24 UTC] PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9971
+[23-Dec-2025 00:25:24 UTC] PHP Deprecated:  Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9970
+[23-Dec-2025 00:25:24 UTC] PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9971
+[23-Dec-2025 00:25:24 UTC] PHP Deprecated:  Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9970
+[23-Dec-2025 00:25:24 UTC] PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9971
+[23-Dec-2025 00:25:24 UTC] PHP Deprecated:  Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9970
+[23-Dec-2025 00:25:24 UTC] PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9971
+[23-Dec-2025 00:25:36 UTC] PHP Deprecated:  Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9970
+[23-Dec-2025 00:25:36 UTC] PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9971
+[23-Dec-2025 00:25:36 UTC] PHP Deprecated:  Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9970
+[23-Dec-2025 00:25:36 UTC] PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9971
+[23-Dec-2025 00:25:36 UTC] PHP Deprecated:  Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9970
+[23-Dec-2025 00:25:36 UTC] PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9971
+[23-Dec-2025 00:25:36 UTC] PHP Deprecated:  Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9970
+[23-Dec-2025 00:25:36 UTC] PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /srv/http/wordpress/lmswebsite/wp-content/plugins/tutor/classes/Utils.php on line 9971
